@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Stories - Homepage</title>
+    <style>
+        /* Styles for existing sections (header, nav, section, articles) */
+        body {
+            font-family: Bradley Hand ITC, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        article h2 {
+            color: #333;
+        }
+
+        article p {
+            color: #555;
+        }
+
+        /* New styles for additional sections */
+        .map-container {
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .photo {
+            margin-bottom: 20px;
+        }
+
+        .comments-section {
+            margin-top: 20px;
+        }
+
+        .about-me {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Travel Stories</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="destination.html">Destinations</a>
+        <a href="map.html">Interactive Map</a>
+        <a href="#">Photo Galleries</a>
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <!-- Recent Travel Articles -->
+        <h2>Recent Travel Articles</h2>
+
+        <article>
+            <h2>Exploring Beautiful Destinations: Kerala</h2>
+            <p>Munnar, Vagamon, Periyar, Peerumedu, Thrissur, Kollam, Ponnani, Thenmala & Poovar</p>
+        </article>
+
+        <article>
+            <h2>Cochin: Half-Day Backwater Village Eco Boat Cruise W/ Lunch</h2>
+            <p>Cruise the fabled Keralan backwaters on a non-mechanized, covered boat tour from Fort Cochin. See the villages along the lush canals. Enjoy a vegetarian lunch in the countryside.</p>
+        </article>
+
+        <article>
+            <h2>Alleppey / Alappuzha Backwater Canoe (Shikara) Cruise</h2>
+            <p>Day Cruise on a small motorized canoe boat also called as "Shikara" in the Backwaters of Aleppey. The cruise will cover the Backwaters and village areas of Aleppey and is the perfect shore excursion.</p>
+        </article>
+
+        <article>
+            <h2>Munnar Private Day Trip</h2>
+            <p>Enjoy a trip to the high-altitude hill station of Munnar, located 1,700 meters above sea level. Your private tour from Kochi will include visits to a tea museum, and tea and spice plantations</p>
+        </article>
+    </section>
+
+    <!-- Blog Articles -->
+    <section>
+        <h2>Blog Articles</h2>
+        <!-- Add individual blog articles here -->
+        <article>
+            <h2>My Adventure in Kerala</h2>
+            <p>If you’re looking for a Southern getaway in India then Kerala is the perfect choice of destination to plan your escape to and you have landed at the right place to make this tropical vacation happen! Famously known as the ‘God’s Own Country’, Kerala is the picturesque beauty that is located in the tropical Malabar Coast of India and here we give you a wide selection of Kerala Blogs, expertly weitten to cater to all your travel needs. You can go as far as you can with your imagination and find the best of options to make your Kerala trip come true with a lifetime of memories and adventures to look forward to. The backwaters of Kerala are a perfect place to unwind in the midst of swaying palm trees and spice plantations. Soak in the aroma of coffee and go on an evening stroll exploring the tropical landscape of Kerala. Find all the information about comfortable homestays or luxurious houseboats on this Kerala trip blog for a blissful vacation in this souther beauty. With what you'll learn from these Kerala tour blogs you are bound to have a hassle free trip. Also, if you want motivation to traverse the serene backwaters of this piece of paradise, teh below given write-ups will do the trick for you. Discover hidden gems, go off the beaten track and share your best travel moments with your friends and family back home!</p>
+            <!-- Include high-quality images and possibly videos -->
+        </article>
+
+        <!-- Add more blog articles as needed -->
+    </section>
+
+    <!-- Travel Destinations -->
+    <section>
+        <h2>Travel Destinations</h2>
+        <!-- Organize blog posts by travel destinations or regions -->
+        <!-- Include filtering options based on specific locations -->
+        <!-- Add content as needed -->
+    </section>
+
+    <!-- Interactive Map -->
+    <section class="map-container">
+        <h2>Interactive Map</h2>
+        <!-- Integrate an interactive map that displays markers for visited locations -->
+        <!-- Clicking on a marker should lead users to respective travel articles -->
+    </section>
+
+    <!-- Photo Galleries -->
+    <section class="photo-gallery">
+        <h2>Photo Galleries</h2>
+        <!-- Create photo galleries within your articles to showcase travel photos -->
+        <div class="photo">
+            <img src="path/to/photo1.jpg" alt="Photo 1">
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+
+    <!-- User Comments and Engagement -->
+    <section class="comments-section">
+        <h2>User Comments and Engagement</h2>
+        <!-- Implement a comment section on each blog post -->
+        <!-- Enable social media sharing for each article -->
+    </section>
+
+    <!-- About the Traveler -->
+    <section class="about-me">
+        <h2>About the Traveler</h2>
+        <p>Welcome to MY TRAVEL STORIES, a space where my adventures come to life. I'm Geethika, your guide through the enchanting world of travel.</p>
+        <p><strong>The Journey So Far:</strong> Hailing from my place, my love affair with exploration began at a young age. From childhood road trips to backpacking across continents, every journey has left an indelible mark on my soul.</p>
+            <p><strong>What Drives Me:</strong> It's the pursuit of the unknown, the thrill of stepping into uncharted territories, and the joy of connecting with diverse cultures that fuels my wanderlust. Whether sipping coffee in a bustling European cafe or trekking through remote landscapes, each experience is a chapter in my ever-growing travel story.</p>
+            <p><strong>Join Me on the Adventure:</strong> Wanderlust Chronicles is more than a blog; it's a community of kindred spirits who share a passion for exploration. Together, let's discover hidden gems, exchange travel tales, and inspire each other to embark on new escapades.</p>
+            <p>Thank you for being part of this journey. Here's to many more miles, countless stories, and the boundless magic of travel!</p>
+    </section>
+</body>
+
+</html>
